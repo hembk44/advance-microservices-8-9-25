@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e68bbe63-c1d8-45e7-bfe3-a8bf58571387" name="Changes" comment="added spring cloud config bus with rabbitmq">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cards/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cards/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loans/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/loans/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loans/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/loans/target/classes/application.yml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "hembk44"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/hembk44/advance-microservices-8-9-25.git",
+    "accountId": "6a678cd0-ebef-4011-a9dd-c543a0410d33"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 8
+}]]></component>
+  <component name="ProjectId" id="314FA6230QDW21zi56kex6NxLJD" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.AccountsApplication.executor": "Run",
+    "Application.ConfigserverApplication.executor": "Run",
+    "Application.accounts.executor": "Run",
+    "Application.cards.executor": "Run",
+    "Application.configserver.executor": "Run",
+    "Application.loans.executor": "Run",
+    "Maven.accounts.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.accounts">
+    <configuration name="accounts" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.sapiustech.accounts.AccountsApplication" />
+      <module name="accounts" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="cards" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.eazybytes.cards.CardsApplication" />
+      <module name="cards" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="configserver" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.sapius.configserver.ConfigserverApplication" />
+      <module name="configserver" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="loans" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.eazybytes.loans.LoansApplication" />
+      <module name="loans" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.accounts" />
+      <item itemvalue="Application.cards" />
+      <item itemvalue="Application.configserver" />
+      <item itemvalue="Application.loans" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e68bbe63-c1d8-45e7-bfe3-a8bf58571387" name="Changes" comment="" />
+      <created>1754775293609</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1754775293609</updated>
+    </task>
+    <task id="LOCAL-00001" summary="added spring cloud config reading from git repo">
+      <option name="closed" value="true" />
+      <created>1754779679606</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1754779679606</updated>
+    </task>
+    <task id="LOCAL-00002" summary="added spring cloud config bus with rabbitmq">
+      <option name="closed" value="true" />
+      <created>1754782435851</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1754782435851</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added spring cloud config reading from git repo" />
+    <MESSAGE value="added spring cloud config bus with rabbitmq" />
+    <option name="LAST_COMMIT_MESSAGE" value="added spring cloud config bus with rabbitmq" />
+  </component>
+</project>
