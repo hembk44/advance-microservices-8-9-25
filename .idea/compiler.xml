@@ -7,33 +7,39 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="configserver (1)" />
+        <module name="eurekaserver" />
         <module name="configserver" />
       </profile>
-      <profile name="Annotation profile for loans" enabled="true">
+      <profile name="Annotation profile for accounts" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="false">
           <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.38/lombok-1.18.38.jar" />
         </processorPath>
-        <module name="cards" />
-        <module name="accounts" />
-        <module name="cards (1)" />
-        <module name="loans (1)" />
+        <module name="accounts (2)" />
         <module name="loans" />
-        <module name="accounts (1)" />
+        <module name="cards" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="accounts" target="17" />
+      <module name="accounts (1)" target="17" />
+      <module name="cards (1)" target="17" />
+      <module name="configserver (1)" target="17" />
+      <module name="loans (1)" target="17" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="accounts" options="-parameters" />
       <module name="accounts (1)" options="-parameters" />
+      <module name="accounts (2)" options="-parameters" />
       <module name="cards" options="-parameters" />
       <module name="cards (1)" options="-parameters" />
       <module name="configserver" options="-parameters" />
       <module name="configserver (1)" options="-parameters" />
+      <module name="eurekaserver" options="-parameters" />
       <module name="loans" options="-parameters" />
       <module name="loans (1)" options="-parameters" />
     </option>

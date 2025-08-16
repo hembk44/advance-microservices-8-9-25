@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
-    <file url="file://$PROJECT_DIR$/my-sql/accounts/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/my-sql/cards/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/my-sql/configserver/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/my-sql/loans/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/spring-cloud/accounts/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/spring-cloud/cards/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/spring-cloud/configserver/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/spring-cloud/loans/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service-discovery/accounts/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service-discovery/cards/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service-discovery/configserver/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service-discovery/eurekaserver/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service-discovery/loans/src/main/java" charset="UTF-8" />
   </component>
 </project>
