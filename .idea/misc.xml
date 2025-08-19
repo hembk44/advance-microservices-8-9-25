@@ -17,6 +17,12 @@
         <option value="$PROJECT_DIR$/service-discovery/configserver/pom.xml" />
         <option value="$PROJECT_DIR$/service-discovery/loans/pom.xml" />
         <option value="$PROJECT_DIR$/service-discovery/eurekaserver/pom.xml" />
+        <option value="$PROJECT_DIR$/service-gateway/accounts/pom.xml" />
+        <option value="$PROJECT_DIR$/service-gateway/cards/pom.xml" />
+        <option value="$PROJECT_DIR$/service-gateway/configserver/pom.xml" />
+        <option value="$PROJECT_DIR$/service-gateway/eurekaserver/pom.xml" />
+        <option value="$PROJECT_DIR$/service-gateway/gatewayserver/pom.xml" />
+        <option value="$PROJECT_DIR$/service-gateway/loans/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
@@ -25,6 +31,11 @@
         <option value="$PROJECT_DIR$/my-sql/cards/pom.xml" />
         <option value="$PROJECT_DIR$/my-sql/configserver/pom.xml" />
         <option value="$PROJECT_DIR$/my-sql/loans/pom.xml" />
+        <option value="$PROJECT_DIR$/service-discovery/accounts/pom.xml" />
+        <option value="$PROJECT_DIR$/service-discovery/cards/pom.xml" />
+        <option value="$PROJECT_DIR$/service-discovery/configserver/pom.xml" />
+        <option value="$PROJECT_DIR$/service-discovery/eurekaserver/pom.xml" />
+        <option value="$PROJECT_DIR$/service-discovery/loans/pom.xml" />
         <option value="$PROJECT_DIR$/spring-cloud/accounts/pom.xml" />
         <option value="$PROJECT_DIR$/spring-cloud/cards/pom.xml" />
         <option value="$PROJECT_DIR$/spring-cloud/configserver/pom.xml" />
