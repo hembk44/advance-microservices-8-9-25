@@ -1,0 +1,16 @@
+com\sapiustech\loans\service\impl\LoansServiceImpl.class
+com\sapiustech\loans\mapper\LoansMapper.class
+com\sapiustech\loans\dto\LoansDto.class
+com\sapiustech\loans\entity\Loans.class
+com\sapiustech\loans\repository\LoansRepository.class
+com\sapiustech\loans\controller\LoansController.class
+com\sapiustech\loans\dto\ResponseDto.class
+com\sapiustech\loans\exception\GlobalExceptionHandler.class
+com\sapiustech\loans\audit\AuditAwareImpl.class
+com\sapiustech\loans\entity\BaseEntity.class
+com\sapiustech\loans\service\ILoansService.class
+com\sapiustech\loans\constants\LoansConstants.class
+com\sapiustech\loans\LoansApplication.class
+com\sapiustech\loans\exception\LoanAlreadyExistsException.class
+com\sapiustech\loans\exception\ResourceNotFoundException.class
+com\sapiustech\loans\dto\ErrorResponseDto.class
