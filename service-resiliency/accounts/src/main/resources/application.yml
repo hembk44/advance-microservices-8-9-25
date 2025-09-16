@@ -65,7 +65,8 @@ logging:
     com:
       sapiustech:
         accounts: DEBUG
-
+# resilience4j config below
+#circuit breaker config
 resilience4j.circuitbreaker:
   configs:
     default:
@@ -73,7 +74,7 @@ resilience4j.circuitbreaker:
       permittedNumberOfCallsInHalfOpenState: 2
       failureRateThreshold: 50
       waitDurationInOpenState: 10000
-
+# retry config
 resilience4j.retry:
   configs:
     default:
@@ -85,3 +86,10 @@ resilience4j.retry:
         - java.lang.NullPointerException
       retryExceptions:
         - java.util.concurrent.TimeoutException
+# rate limiter configs
+resilience4j.ratelimiter:
+  configs:
+    default:
+      limitForPeriod: 1         # allow 1 call...
+      limitRefreshPeriod: 5s    # ...per 5-second window
+      timeoutDuration: 0        # do NOT wait; extra calls fail immediately
