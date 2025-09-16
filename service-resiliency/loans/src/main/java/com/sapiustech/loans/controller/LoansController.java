@@ -169,4 +169,13 @@ public class LoansController {
         }
     }
 
+    @GetMapping("/contact-info")
+    public ResponseEntity<String> getContactInfo() {
+        logger.debug("Invoked Loans contact-info API");
+//        throw new RuntimeException();
+        return ResponseEntity
+                .status(HttpStatus.OK)
+                .body("Loan contact is working");
+    }
+
 }

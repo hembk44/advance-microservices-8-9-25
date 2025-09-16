@@ -60,5 +60,5 @@ info:
 logging:
   level:
     com:
-      sapius:
+      sapiustech:
         loans: DEBUG
