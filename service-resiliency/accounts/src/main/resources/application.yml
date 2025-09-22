@@ -17,7 +17,7 @@ spring:
     database-platform: org.hibernate.dialect.H2Dialect
     hibernate:
       ddl-auto: update
-    show-sql: true
+    show-sql: false
   config:
     import: "optional:configserver:http://localhost:8071/"
   cloud:
@@ -63,9 +63,10 @@ info:
 logging:
   level:
     com:
-      sapiustech:
+      sapius:
         accounts: DEBUG
-# resilience4j config below
+
+# resilience4j configs below
 #circuit breaker config
 resilience4j.circuitbreaker:
   configs:

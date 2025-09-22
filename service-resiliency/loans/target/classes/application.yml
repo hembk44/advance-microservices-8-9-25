@@ -17,7 +17,7 @@ spring:
     database-platform: org.hibernate.dialect.H2Dialect
     hibernate:
       ddl-auto: update
-    show-sql: true
+    show-sql: false
   config:
     import: "optional:configserver:http://localhost:8071/"
 
@@ -60,5 +60,5 @@ info:
 logging:
   level:
     com:
-      sapiustech:
+      sapius:
         loans: DEBUG
